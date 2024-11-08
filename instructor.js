@@ -1,5 +1,3 @@
-// manage instructor
-
 module.exports = {
     instructors: [],
 
