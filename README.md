@@ -9,7 +9,9 @@ Clone the repository or download the code.
 ### Features
 Register Guests for Trips: Allows guests to book a package with an available car.
 
-Check Package and Car Availability: View package details and car availability.
+Check Package details: View package details.
+
+Check car availability: View car availability.
 
 Manage Bookings: Cancel bookings, update seat availability, and keep track of guest bookings.
 
@@ -34,7 +36,7 @@ Example: trip.registerTripGuest("joe", "12345678", "12/12/24", 1, 2);
 
 Parameters: packageId (number): ID of the package.
 
-Description: Displays information about the package, including name, price, description, and available seats.
+Description: Displays information about the package, including name, price, description, and available seats. 
 
 Example: trip.checkPackageAvailability(1);
 
